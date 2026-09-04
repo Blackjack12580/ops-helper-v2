@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOP‑04 UPS切维修旁路操作｜码上运维小助手V2.0</title>
+<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<header class="top-nav">
+    <div class="nav-title">🏭 码上运维小助手 V2.0</div>
+    <nav class="nav-menu">
+        <a href="../index.html" class="nav-item">🏠首页</a>
+        <a href="./index.html" class="nav-item active">📋SOP标准作业程序</a>
+        <a href="../mop/index.html" class="nav-item">⚙️MOP专项操作方法</a>
+        <a href="../room-layout/index.html" class="nav-item">🗺️机房平面图&设备台账</a>
+        <a href="../manuals/index.html" class="nav-item">📖产品操作手册</a>
+        <a href="../qr-tool.html" class="nav-item">🔖二维码工具</a>
+    </nav>
+</header>
+
+<main class="container">
+    <div class="doc-box">
+        <h2>SOP‑04：UPS切维修旁路操作</h2>
+        <div class="info-row"><strong>版本：</strong>V1.0</div>
+        <div class="info-row"><strong>适用范围：</strong>UPS设备维修、内部检修，需要断开UPS主机，负载由维修旁路供电</div>
+        <div class="info-row"><strong>作业目的：</strong>将UPS负载无间断切换至维修旁路，实现UPS主机断电检修，保障后端负载不停电。</div>
+        <div class="info-row"><strong>工具与PPE：</strong>绝缘手套、万用表；低压电工持证，双人监护；操作前确认旁路回路供电正常。</div>
+
+        <div class="warn">
+            ⚠️安全警示：严禁直接合维修旁路；必须先确认UPS内部旁路已经同步；确认维修旁路电源与输出同相；切换完成后，UPS主机内部仍然可能残存高压，检修前务必断开全部输入、电池开关，验电确认。
+        </div>
+
+        <div class="step-block">
+            <h3>📝操作步骤</h3>
+            <div class="step-item"><strong>步骤1：</strong>作业前通知动环值班，记录UPS当前输入、输出、电池电压、负载率。</div>
+            <div class="step-item"><strong>步骤2：</strong>确认维修旁路供电电源正常，相位与UPS输出一致。</div>
+            <div class="step-item"><strong>步骤3：</strong>确认UPS当前工作在逆变正常模式，无告警、无电池放电状态。</div>
+            <div class="step-item"><strong>步骤4：</strong>执行UPS面板操作，切换至内部静态旁路，负载切至旁路电源，逆变器待机。</div>
+            <div class="step-item"><strong>步骤5：</strong>确认静态旁路已经带载，输出电压无中断，负载运行正常。</div>
+            <div class="step-item"><strong>步骤6：</strong>合上机柜外部维修旁路开关。</div>
+            <div class="step-item"><strong>步骤7：</strong>确认维修旁路与静态旁路并列正常，输出电压稳定。</div>
+            <div class="step-item"><strong>步骤8：</strong>分断UPS逆变器输出开关。</div>
+            <div class="step-item"><strong>步骤9：</strong>分断UPS主输入开关。</div>
+            <div class="step-item"><strong>步骤10：</strong>分断蓄电池开关，UPS主机完全断电；验电确认主机内部无电，方可开展维修作业。</div>
+        </div>
+
+        <div style="margin-top:24px;">
+            <a href="./index.html" class="btn-primary">← 返回SOP列表</a>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <p>码上运维小助手V2.0｜SOP作业文档</p>
+</footer>
+</body>
+</html>

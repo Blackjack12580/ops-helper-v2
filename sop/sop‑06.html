@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SOP‑06 UPS、开关电源蓄电池放电测试｜码上运维小助手V2.0</title>
+<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<header class="top-nav">
+    <div class="nav-title">🏭 码上运维小助手 V2.0</div>
+    <nav class="nav-menu">
+        <a href="../index.html" class="nav-item">🏠首页</a>
+        <a href="./index.html" class="nav-item active">📋SOP标准作业程序</a>
+        <a href="../mop/index.html" class="nav-item">⚙️MOP专项操作方法</a>
+        <a href="../room-layout/index.html" class="nav-item">🗺️机房平面图&设备台账</a>
+        <a href="../manuals/index.html" class="nav-item">📖产品操作手册</a>
+        <a href="../qr-tool.html" class="nav-item">🔖二维码工具</a>
+    </nav>
+</header>
+
+<main class="container">
+    <div class="doc-box">
+        <h2>SOP‑06：UPS、开关电源蓄电池放电测试</h2>
+        <div class="info-row"><strong>版本：</strong>V1.0</div>
+        <div class="info-row"><strong>适用范围：</strong>UPS蓄电池组、开关电源2V阀控铅酸蓄电池核对性放电测试</div>
+        <div class="info-row"><strong>作业目的：</strong>开展蓄电池核对性放电，检验电池实际容量，识别落后单体电池，保障停电后备供电时长。</div>
+        <div class="info-row"><strong>工具与PPE：</strong>蓄电池测试仪、万用表、红外测温仪；绝缘手套，绝缘垫；双人作业；提前确认市电系统稳定。</div>
+
+        <div class="warn">
+            ⚠️安全警示：放电测试存在直流失电风险，必须确认市电供电可靠；严禁电池组出现过放；全程监测单体电压，达到终止电压立即停止放电；蓄电池室保持通风，防止氢气聚集。
+        </div>
+
+        <div class="step-block">
+            <h3>📝操作步骤</h3>
+            <div class="step-item"><strong>步骤1：</strong>作业前通知动环监控，确认市电供电稳定，无计划停电；记录放电前全部单体电压、总电压、环境温度。</div>
+            <div class="step-item"><strong>步骤2：</strong>检查电池连接条紧固，接点无发热，电池壳体无鼓包漏液，维护通道绝缘垫铺设到位。</div>
+            <div class="step-item"><strong>步骤3：</strong>调整开关电源/UPS设置，开启电池放电模式，或者接入放电负载，开始核对性放电。</div>
+            <div class="step-item"><strong>步骤4：</strong>放电过程定时采集：电池组总电压、每一节单体电压、连接点温度、放电电流。</div>
+            <div class="step-item"><strong>步骤5：</strong>放出容量达到额定容量30‑40%，或者出现单体电压到达放电终止电压，立即停止放电。</div>
+            <div class="step-item"><strong>步骤6：</strong>放电结束，将设备切回均充模式，对蓄电池组进行补充充电。</div>
+            <div class="step-item"><strong>步骤7：</strong>充电过程持续监视单体电压、电池温度，直到电池组完成均充转入浮充。</div>
+            <div class="step-item"><strong>步骤8：</strong>对比放电数据，识别落后单体电池，记录每一节单体的放电数据。</div>
+            <div class="step-item"><strong>步骤9：</strong>恢复设备原有参数设置，确认蓄电池回到正常浮充运行状态。</div>
+            <div class="step-item"><strong>步骤10：</strong>整理放电测试报告，归档原始记录，对落后电池制定后续处理计划。</div>
+        </div>
+
+        <div style="margin-top:24px;">
+            <a href="./index.html" class="btn-primary">← 返回SOP列表</a>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <p>码上运维小助手V2.0｜SOP作业文档</p>
+</footer>
+</body>
+</html>
