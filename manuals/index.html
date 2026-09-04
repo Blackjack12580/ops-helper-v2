@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>产品操作手册及说明书｜码上运维小助手V2.0</title>
+<!-- 相对路径：manuals文件夹，向上一级找到css文件夹 -->
+<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<!-- ==========全局统一导航栏（和SOP/MOP完全一致，不要修改href路径） ========== -->
+<header class="top-nav">
+    <div class="nav-title">🏭 码上运维小助手 V2.0</div>
+    <nav class="nav-menu">
+        <a href="../index.html" class="nav-item">🏠首页</a>
+        <a href="../sop/index.html" class="nav-item">📋SOP标准作业程序</a>
+        <a href="../mop/index.html" class="nav-item">⚙️MOP专项操作方法</a>
+        <a href="../room-layout/index.html" class="nav-item">🗺️机房平面图&设备台账</a>
+        <a href="./index.html" class="nav-item active">📖产品操作手册</a>
+
+    </nav>
+</header>
+
+<main class="container">
+    <div class="welcome-box">
+        <h2>📖产品操作手册&原厂说明书</h2>
+        <p>各高压柜、变压器、UPS、开关电源、柴油机组原厂PDF说明书。
+        <br>✅PDF：点击新浏览器标签页<strong>直接在线阅读，无需下载</strong>。
+        <br>📎docx文档：浏览器不能预览，点击会直接下载到本地。
+        </p>
+    </div>
+
+    <div class="manual-grid">
+        <!-- ====================PDF文档（target="_blank" 新标签打开预览）==================== -->
+        <div class="manual-btn">
+            <a target="_blank" href="./pdf/ABB高压断路器.pdf">ABB Vmax高压断路器说明书</a>
+        </div>
+        <div class="manual-btn">
+            <a target="_blank" href="./pdf/干式变压器（华辰）.pdf">华辰SC(B)干式变压器说明书</a>
+        </div>
+        <div class="manual-btn">
+            <a target="_blank" href="./pdf/西门子SIEMENS‑SIVACON‑8PT低压开关柜技术资料.pdf">西门子8PT低压开关柜</a>
+        </div>
+        <div class="manual-btn">
+            <a target="_blank" href="./pdf/中达开关电源.pdf">中达开关电源说明书</a>
+        </div>
+        <div class="manual-btn">
+            <a target="_blank" href="./pdf/柴油发电机用户手册.pdf">柴油发电机用户手册</a>
+        </div>
+        <div class="manual-btn">
+            <a target="_blank" href="./pdf/西门子3WL断路器技术手册.pdf">西门子3WL断路器</a>
+        </div>
+        <div class="manual-btn">
+            <a target="_blank" href="./pdf/施耐德高压断路器.pdf">施耐德高压断路器</a>
+        </div>
+        <div class="manual-btn">
+            <a target="_blank" href="./pdf/维谛NX系列UPS（250‑800）.pdf">维谛NX系列UPS</a>
+        </div>
+        <div class="manual-btn">
+            <a target="_blank" href="./pdf/维谛艾默生UPS用户手册.pdf">维谛艾默生UPS用户手册</a>
+        </div>
+
+        <!-- ==================== Word文档docx（增加download，点击直接下载）==================== -->
+        <div class="manual-btn">
+            <a href="./pdf/电池维护.docx" download>📥电池维护文档（docx下载）</a>
+        </div>
+    </div>
+
+    <div class="tips-panel">
+        <h4>💡维护&使用提示</h4>
+        <ul>
+            <li>🔄更新手册：只需要把新版文件覆盖到 <code>manuals/pdf/</code>，html页面链接不用修改。</li>
+            <li>✅已经打印的二维码<strong>完全不需要更换</strong>，上传新版本后网页自动读取新文件。</li>
+            <li>⚠️文件名必须完全匹配，中文、括号、空格、大小写必须一模一样，否则点击404。</li>
+            <li>📌PDF支持手机浏览器直接阅读；docx无法网页预览，触发下载。</li>
+            <li>➕新增设备手册：①把文件复制进pdf文件夹；②复制一份manual-btn卡片，修改显示文字和href路径即可。</li>
+        </ul>
+    </div>
+
+    <div style="margin-top:24px;">
+        <a href="../index.html" class="btn-primary">← 返回系统首页</a>
+    </div>
+</main>
+
+<footer class="footer">
+    <p>码上运维小助手V2.0｜原厂设备手册库</p>
+</footer>
+</body>
+</html>
