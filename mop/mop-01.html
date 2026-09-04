@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOP-01：CH16高压进线柜开关脱扣复位步骤｜码上运维小助手V2.0</title>
+<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<header class="top-nav">
+    <div class="nav-title">🏭 码上运维小助手 V2.0</div>
+    <nav class="nav-menu">
+        <a href="../index.html" class="nav-item">🏠首页</a>
+        <a href="../sop/index.html" class="nav-item">📋SOP标准作业程序</a>
+        <a href="./index.html" class="nav-item active">⚙️MOP专项操作方法</a>
+        <a href="../room-layout/index.html" class="nav-item">🗺️机房平面图&设备台账</a>
+        <a href="../manuals/index.html" class="nav-item">📖产品操作手册</a>
+        <a href="../qr-tool.html" class="nav-item">🔖二维码工具</a>
+    </nav>
+</header>
+<main class="container">
+    <div class="doc-box">
+        <h2>MOP-01：CH16高压进线柜开关脱扣复位步骤</h2>
+        <div class="info-row"><strong>版本：</strong>V1.0</div>
+<div class="info-row"><strong>作业周期：</strong>故障触发执行（团45线恢复供电后）</div>
+<div class="info-row"><strong>适用范围：</strong>CH16进线柜 ABB综合保护装置</div>
+<div class="info-row"><strong>作业目的：</strong>当团45线恢复供电后，CH16进线柜因失压保护不能自动合闸，现场调整ABB综合保护装置参数，恢复合闸条件。</div>
+<div class="info-row"><strong>人员通知：</strong>告知值班室监控人员本次保护定值调整作业。</div>
+<div class="info-row"><strong>工具仪表：</strong>开关柜本地操作面板、绝缘手套、绝缘靴</div>
+<div class="info-row"><strong>安全PPE：</strong>绝缘手套、绝缘靴；高压柜作业需高压电工持证；现场双人作业，一人操作一人监护。</div>
+
+        <div class="warn">⚠️安全警示：高压柜操作属于高危作业，必须执行双人监护；操作定值修改完成务必确认保存；操作完成核对保护装置状态，确认设备具备合闸条件。</div>
+        <div class="step-block">
+            <h3>📝作业执行步骤</h3>
+            <div class="step-item"><strong>步骤1：</strong><div class="step-content">右键进入"定值"。</div></div>
+<div class="step-item"><strong>步骤2：</strong><div class="step-content">再次右键进入"定值-定值"。</div></div>
+<div class="step-item"><strong>步骤3：</strong><div class="step-content">编辑定值组："↑+_1" 其中1显示光标，然后回车键确认。</div></div>
+<div class="step-item"><strong>步骤4：</strong><div class="step-content">选中"电压保护"右键进入。</div></div>
+<div class="step-item"><strong>步骤5：</strong><div class="step-content">选择"PHP PUV2"右键进入。</div></div>
+<div class="step-item"><strong>步骤6：</strong><div class="step-content">选择"退出模式=投入"回车键确认。</div></div>
+<div class="step-item"><strong>步骤7：</strong><div class="step-content">调整为"退出模式=退出"回车键确认，显示为退出后，左键返回首页。</div></div>
+<div class="step-item"><strong>步骤8：</strong><div class="step-content">弹出"保存修改？ 是 否 取消"，选择"是"回车键确定保存。</div></div>
+<div class="step-item"><strong>步骤9：</strong><div class="step-content">重复以上步骤，在"投退模式"下选择"投入"，回车键确定保存。</div></div>
+
+        </div>
+        <div style="margin-top:24px;">
+            <a href="./index.html" class="btn-primary">← 返回MOP列表</a>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <p>码上运维小助手V2.0｜MOP专项作业文档</p>
+</footer>
+</body>
+</html>

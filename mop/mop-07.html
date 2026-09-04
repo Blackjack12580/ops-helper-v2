@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOP-07：开关电源日常维护｜码上运维小助手V2.0</title>
+<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<header class="top-nav">
+    <div class="nav-title">🏭 码上运维小助手 V2.0</div>
+    <nav class="nav-menu">
+        <a href="../index.html" class="nav-item">🏠首页</a>
+        <a href="../sop/index.html" class="nav-item">📋SOP标准作业程序</a>
+        <a href="./index.html" class="nav-item active">⚙️MOP专项操作方法</a>
+        <a href="../room-layout/index.html" class="nav-item">🗺️机房平面图&设备台账</a>
+        <a href="../manuals/index.html" class="nav-item">📖产品操作手册</a>
+        <a href="../qr-tool.html" class="nav-item">🔖二维码工具</a>
+    </nav>
+</header>
+<main class="container">
+    <div class="doc-box">
+        <h2>MOP-07：开关电源日常维护</h2>
+        <div class="info-row"><strong>版本：</strong>V1.0</div>
+<div class="info-row"><strong>作业周期：</strong>1次/月</div>
+<div class="info-row"><strong>适用范围：</strong>开关电源设备</div>
+<div class="info-row"><strong>作业目的：</strong>为保证开关电源的安全性和稳定性，保证设备完好。</div>
+<div class="info-row"><strong>人员通知：</strong>告知值班室监控人员进行开关电源日常维护。</div>
+<div class="info-row"><strong>工具仪表：</strong>红外测温仪、万用表</div>
+<div class="info-row"><strong>材料：</strong>干抹布、毛刷（金属处做好绝缘）</div>
+<div class="info-row"><strong>安全PPE：</strong>绝缘手套、安全绝缘鞋、工作服；试验进行时必须2人进行，一人操作一人监护；断电后按规定悬挂标识牌，并进行安全锁定。</div>
+<div class="info-row"><strong>特殊工具/配件：</strong>一字螺丝刀、十字螺丝刀、内六角扳手、老虎钳、尖嘴钳</div>
+
+        <div class="warn">⚠️安全警示：严格执行作业许可，高压/带电作业必须持证；断电后执行停电-验电-接地-挂牌上锁流程；双人作业，一人操作一人监护。</div>
+        <div class="step-block">
+            <h3>📝作业执行步骤</h3>
+            <div class="step-item"><strong>步骤1：检查各整流模块散热风扇的工作状况及风扇风道、滤尘网、机柜风道等</strong><div class="step-content">1.检查风扇是否停机或噪音过大，有问题应及时处理或更换。2.用吸尘器、毛刷对设备表面和各接点进行清洁，防止灰尘过多发生发热短路故障。3.查看开关电源朝向是否符合要求，冷热通道需分离。</div></div>
+<div class="step-item"><strong>步骤2：模块工作状态指示灯是否正常</strong><div class="step-content">1.查看指示灯显示是否正常。2.如有故障，需更换整流模块。3.更换时，先将要更换整流模块对应的交流输入空开断开，待整流模块所有指示灯熄灭后，拔出故障模块，插入新模块后，待电源指示灯亮起后，闭合更换后整流模块对应的交流输入空开，确认监控单元中此整流模块工作正常。</div></div>
+<div class="step-item"><strong>步骤3：面板显示功能是否正常，权限设置是否正确</strong><div class="step-content">1.查看监控模块显示屏无告警。2.查看当前信息（交流电压、交流电流、直流电压、负载电流、电池信息）显示正常。3.一般设置三级权限：一般用户、高级用户、管理用户，对应三级密码。</div></div>
+<div class="step-item"><strong>步骤4：直流负载波动≥±10%，核实与上下电记录是否关联一致</strong><div class="step-content">1.负载上电，推荐先总后分，逐级上电原则。负载下电，推荐先分后总，逐级下电原则。2.通过日常巡视记录，对比当天负载率与前一天负载率。3.核实上下电记录和OA用电申请。4.若相符，则正常；若不一致，则需查明原因并按月通报。</div></div>
+<div class="step-item"><strong>步骤5：检查交流输入端防雷器件的工作状态</strong><div class="step-content">1.检查避雷器接线是否正常，空开是否闭合。2.检查避雷器的显示窗口是否为绿色（白色），如果已变为红色，则已被雷击损坏，抽下防雷模块，进行更新。3.以厂家说明为准。</div></div>
+
+        </div>
+        <div style="margin-top:24px;">
+            <a href="./index.html" class="btn-primary">← 返回MOP列表</a>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <p>码上运维小助手V2.0｜MOP专项作业文档</p>
+</footer>
+</body>
+</html>

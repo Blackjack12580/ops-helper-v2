@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOP-08：蓄电池日常维护｜码上运维小助手V2.0</title>
+<link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+<header class="top-nav">
+    <div class="nav-title">🏭 码上运维小助手 V2.0</div>
+    <nav class="nav-menu">
+        <a href="../index.html" class="nav-item">🏠首页</a>
+        <a href="../sop/index.html" class="nav-item">📋SOP标准作业程序</a>
+        <a href="./index.html" class="nav-item active">⚙️MOP专项操作方法</a>
+        <a href="../room-layout/index.html" class="nav-item">🗺️机房平面图&设备台账</a>
+        <a href="../manuals/index.html" class="nav-item">📖产品操作手册</a>
+        <a href="../qr-tool.html" class="nav-item">🔖二维码工具</a>
+    </nav>
+</header>
+<main class="container">
+    <div class="doc-box">
+        <h2>MOP-08：蓄电池日常维护</h2>
+        <div class="info-row"><strong>版本：</strong>V1.0</div>
+<div class="info-row"><strong>作业周期：</strong>1次/年</div>
+<div class="info-row"><strong>适用范围：</strong>蓄电池组</div>
+<div class="info-row"><strong>作业目的：</strong>为保证蓄电池的安全性和稳定性，保证设备完好。</div>
+<div class="info-row"><strong>人员通知：</strong>告知值班室监控人员进行蓄电池维护作业。</div>
+<div class="info-row"><strong>工具仪表：</strong>万用表、电工工具、电池内阻测试仪</div>
+<div class="info-row"><strong>材料：</strong>干抹布、毛刷（金属处做好绝缘）</div>
+<div class="info-row"><strong>安全PPE：</strong>绝缘手套、安全绝缘鞋、工作服；试验进行时必须2人进行，一人操作一人监护。</div>
+<div class="info-row"><strong>特殊工具/配件：</strong>电池内阻测试仪</div>
+
+        <div class="warn">⚠️安全警示：严格执行作业许可，高压/带电作业必须持证；断电后执行停电-验电-接地-挂牌上锁流程；双人作业，一人操作一人监护。</div>
+        <div class="step-block">
+            <h3>📝作业执行步骤</h3>
+            <div class="step-item"><strong>步骤1：蓄电池与电池架紧固情况，有绝缘处理</strong><div class="step-content">1.检查蓄电池与电池架紧固情况，是否有螺栓固定；2.检查蓄电池与电池架之间是否铺设绝缘垫或绝缘隔板。</div></div>
+<div class="step-item"><strong>步骤2：放电测试期间检测单体电池温度是否异常</strong><div class="step-content">1.使用红外线热成像仪检测电池组的汇流排、馈电母线、熔断器、电池连接点等节点温升，发现异常及时处理。（超过35℃即为异常）</div></div>
+<div class="step-item"><strong>步骤3：蓄电池组维护通道应铺设绝缘胶垫</strong><div class="step-content">1.检查蓄电池组与维护人员操作通道之间是否铺设绝缘胶垫；2.绝缘垫无破损，长度宽度应满足维护通道绝缘基本要求。</div></div>
+<div class="step-item"><strong>步骤4：蓄电池组间的维护通道不应小于500mm</strong><div class="step-content">1.使用卷尺检查蓄电池组与蓄电池组之间的维护通道应不小于500mm。</div></div>
+<div class="step-item"><strong>步骤5：蓄电池供电系统配置组数检查</strong><div class="step-content">1.检查蓄电池组供电系统配置组数情况，应采用2组及以上并联使用，但不得超过4组。</div></div>
+<div class="step-item"><strong>步骤6：核对性放电试验</strong><div class="step-content">1.采用在线式测试方法完成，即以实际负荷做核对性放电试验，放出额定容量的30～40％。方法是将开关电源的浮充电压值调到47V（或开启电池测试功能），对电池做在线式放电，及时测量电池电压、放电电流值，前期每小时测量一次，后期要逐渐加大测量密度，核对放电容量至电池额定容量30%时即停止放电（负载较小时可放电到40%）；之后调节开关电源电压至均充状态，对电池进行补充充电；2.如果端电压（单次）放电循环中测试均为最低，且低于1.92V，可判定为该组中落后的蓄电池。</div></div>
+<div class="step-item"><strong>步骤7：电池开关箱断路器容量匹配</strong><div class="step-content">1.UPS电源系统中每组蓄电池均需配置1路电池开关，宜安装在蓄电池组侧。2.UPS电池开关应选用直流断路器或熔断器，当UPS电池开关选用熔断器时，每组蓄电池的正负极线路各配置1个熔断器，每个熔断器要求带辅助触点和操作手柄。3.电池开关容量应根据公式计算确定：I=（K×Q×COSφ）/（U×η）×1000，式中：K—安全系数取1.25，Q—UPS额定容量（kVA），COSφ—UPS功率因数，U—UPS蓄电池组终止电压（V），η—UPS逆变器效率。</div></div>
+<div class="step-item"><strong>步骤8：蓄电池使用年限检查</strong><div class="step-content">1.检查局用2V阀控式密封蓄电池是否超过8年；2.检查油机启动电池投入使用时间，判断使用时长是否超过2年；3.检查局用6V、12V阀控式密封蓄电池（含高压柜操作电源后备电池）是否超过6年。</div></div>
+<div class="step-item"><strong>步骤9：监控情况检查，模拟告警</strong><div class="step-content">1.检查动环监控系统中的核心机房楼的监控情况应与实际情况一一对应，名称、编号、数据、标签应准确，不对应时，参照综合资管系统的名称、编号标准进行修改；存在问题，及时分析原因并进行整治。（单体电池编号原则为从正极到负极）</div></div>
+<div class="step-item"><strong>步骤10：故障处理时长监控</strong><div class="step-content">1.故障处理时长统计；2.故障处理报告。</div></div>
+<div class="step-item"><strong>步骤11：设备性能年度监评估/年（里程碑）</strong><div class="step-content">1.维保厂家/设备厂家对蓄电池组性能评估；2.放电测试时长须满足3小时；3.单组蓄电池落后电池个数少于6只；4.性能评估多方签字。</div></div>
+<div class="step-item"><strong>步骤12：年度放电测试监控（里程碑）</strong><div class="step-content">1.检查蓄电池放电测试落实情况；2.放电测试完成后多方签字。</div></div>
+
+        </div>
+        <div style="margin-top:24px;">
+            <a href="./index.html" class="btn-primary">← 返回MOP列表</a>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <p>码上运维小助手V2.0｜MOP专项作业文档</p>
+</footer>
+</body>
+</html>
